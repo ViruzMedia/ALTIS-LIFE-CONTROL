@@ -1,0 +1,11 @@
+Load all Files to Webserver
+Edit config.php
+Add start.sql to your Database
+
+Login with 
+User: admin
+PSWD: test-1234
+
+Caution:
+Delete debug.sqf if not needed
+Remove Admin User, if you created an new Admin.
