@@ -28,7 +28,7 @@ function admin_footer($extra_html_footer){
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class='row'>
                     <div class='col-lg-8'>
-                        <p style='color: #fff; font-size: smaller; margin-top: 5px;'>Copyright &copy; ".date('Y')." Altis Life Control 2.0 - by Pictureclass  - All Rights Reserved</br>
+                        <p style='color: #fff; font-size: smaller; margin-top: 5px;'>Copyright 2014 - &copy; ".date('Y')." Altis Life Control 2.1 - by Pictureclass  - All Rights Reserved</br>
                         Only for Private Use. No Commercial Use. Advanced Permissions beyond this license may be available at pictureclass@revoplay.de.</p>
                     </div>
                     <div class='col-lg-2'>
