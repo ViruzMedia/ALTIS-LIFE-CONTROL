@@ -569,13 +569,13 @@ top_menu();
                                                         <?php while($row_veh = mysqli_fetch_object($vehicle_SQL)){ ?>
                                                             <tr>
                                                                 <td><?php echo $row_veh->id;?></td>
-                                                                <td><?php echo "<a href='vehicle_detail.php?id=".$row_veh->id."'>".$row_veh->classname."</a>";?></td>
+                                                                <td><?php echo "<a href='vehicle_edit.php?id=".$row_veh->id."'>".$row_veh->classname."</a>";?></td>
                                                                 <td><?php echo $row_veh->type;?></td>
                                                                 <td><?php echo $row_veh->side;?></td>
                                                                 <td><?php echo $row_veh->alive;?></td>
                                                                 <td><?php echo $row_veh->active;?></td>
                                                                 <td><?php echo $row_veh->inventory;?></td>
-                                                                <td><a href="vehicle_detail.php?id=<?php echo $row_veh->id;?>" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span></a></td>
+                                                                <td><a href="vehicle_edit.php?id=<?php echo $row_veh->id;?>" class="btn btn-primary"><span class="glyphicon glyphicon-pencil"></span></a></td>
                                                             </tr>
                                                         <?php } ?>
                                                         </table>
