@@ -49,7 +49,7 @@ if (isset($_POST['username'], $_POST['email'])) {
             $error_msg .= '<p class="error">Ein Benuter mit dieser E-Mail Adresse existiert bereits</p>';
         }
     } else {
-        $error_msg .= '<p class="error">Datenbankfehler</p>';
+        $error_msg .= '<p class="error">Datenbankfehler </br>'.$mysqli->error.'</p>';
     }
     
     //CHECK IF USER EXIST
@@ -67,7 +67,7 @@ if (isset($_POST['username'], $_POST['email'])) {
             $error_msg .= '<p class="error">Ein Benuter mit diesem Namen existiert bereits</p>';
         }
     } else {
-        $error_msg .= '<p class="error">Datenbankfehler</p>';
+        $error_msg .= '<p class="error">Datenbankfehler </br>'.$mysqli->error.'</p>';
     }
     
     // Noch zu tun: 
@@ -110,7 +110,7 @@ if (isset($_POST['username'], $_POST['email'])) {
         
         $email_text = 
 "Hallo ".$username.",
-vielen Dank, dass du dich auf www.Servertester.de registriert hast.
+vielen Dank, dass du dich registriert hast.
 Bevor dein Benutzerkonto aktiviert und deine Registrierung abgeschlossen werden kann, musst du noch einen letzten Schritt unternehmen.
 
 Bitte beachte, dass dieser Schritt zwingend notwendig ist, um ein registrierter Benutzer zu werden. Du musst den Link unten nur ein einziges Mal aufrufen, um dein Benutzerkonto zu aktivieren.
@@ -118,12 +118,8 @@ Bitte beachte, dass dieser Schritt zwingend notwendig ist, um ein registrierter 
 Dein Benutzername lautet: ".$username."
 Dein Password lautet: ".$password_email."
 
-**** Gibt es Probleme mit dem Link oben? ****\n
-Kontaktiere bitte den Webmaster unter dieser E-Mail-Adresse: info@servertester.de
 
-Mit freundlichen Grüßen
-Dein Servertester.de Team
-www.Servertester.de";
+Mit freundlichen Grüßen";
 
         $empfaenger = $email;
         $betreff = 'Aktivierung auf Servertester.de';
