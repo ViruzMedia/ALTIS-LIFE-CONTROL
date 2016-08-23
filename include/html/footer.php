@@ -29,7 +29,7 @@ function footer($extra_html_footer){
                 <div class='row'>
                     <div class='col-lg-8'>
                         <p style='color: #fff; font-size: smaller; margin-top: 5px;'>Copyright &copy; 2014 - ".date('Y')." Altis Life Control 2.1 - by Pictureclass  - All Rights Reserved</br>
-                        Only for Private Use. No Commercial Use. Advanced Permissions beyond this license may be available at pictureclass@revoplay.de.</p>
+                        Only for Private Use. No Commercial Use. Advanced Permissions beyond this license may be available at pic@pictureclass.dede.</p>
                     </div>
                     <div class='col-lg-2'>
                         <form action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top' class='text-center' style='margin-top: 5px; margin-bottom: 10px;'>
