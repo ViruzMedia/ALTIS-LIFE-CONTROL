@@ -45,8 +45,8 @@ if(isset($_GET['id'])){
         
         if($_POST['change'] == "main"){
         
-            $username = mysql_real_escape_string($_POST["username"]);
-            $email = mysql_real_escape_string($_POST["email"]);
+            $username = mysqli_real_escape_string($mysqli, $_POST["username"]);
+            $email = mysqli_real_escape_string($mysqli, $_POST["email"]);
             
             $update_data = $mysqli->query("UPDATE ".MySQL_TABLE_PREFIX."alc_user SET username = '".$username."', email = '".$email."' WHERE id = ".$userid."");
             
