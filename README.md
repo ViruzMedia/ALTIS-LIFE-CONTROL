@@ -23,6 +23,17 @@ Webaplication for managing (Altis) Life Databases
 Delete debug.sqf if not needed
 Remove Admin User, if you created an new Admin.
 
+##Support
+If you like the work, feel free to support the work. How to Support:
+* Document Erros in the Bugtracker (https://github.com/Pictureclass/ALTIS-LIFE-CONTROL-2/issues)
+* Please Read: https://github.com/Pictureclass/ALTIS-LIFE-CONTROL/wiki/How-to-Report-an-Issue
+* Write Documentation ;) 
+* Support with Feedback - (https://github.com/Pictureclass/ALTIS-LIFE-CONTROL-2/issues)
+* **Donate**
+* [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQJFLAEZMPBML)
+* Or Paysafe Cards for Steam, or send me an Coffee - Simple Support. Thank you
+ 
+
 ## FAQ:
 
 * What do i need to have this fancy Stuff for my Server    
@@ -38,21 +49,12 @@ No!
 No, its my work and pleace respect it
 
 * Support?     
-Steam or Skype, Nickname: Pictureclass
+Create an Issue, Steam or Skype, Nickname: Pictureclass
 
 ##Licences
 * **CC BY-NC-SA 4.0** - Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en) 
 * **CC BY-NC-SA 4.0** - Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International (https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de)
 
 If you have questions about the permissions or above, contact me. pic(a)pictureclass.de
-
-##Support
-If you like the work, feel free to support the work. How to Support:
-* Document Erros in the Bugtracker (https://github.com/Pictureclass/ALTIS-LIFE-CONTROL-2/issues)
-* Write Documentation ;) 
-* Support with Feedback
-* **Donate**
-* [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=MQJFLAEZMPBML)
-* Or Paysafe Cards for Steam, or send me an Coffee - Simple Support. Thank you
 
 
